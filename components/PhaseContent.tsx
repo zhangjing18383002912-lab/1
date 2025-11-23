@@ -442,14 +442,14 @@ export const PhaseContent: React.FC<PhaseContentProps> = ({ phase, onLearnMore }
                 <div className="flex items-center gap-4 p-4 border border-slate-100 rounded-xl bg-white shadow-sm hover:border-yellow-200 transition-colors">
                    <div className="w-4 h-4 rounded-full bg-yellow-500 shadow-lg shadow-yellow-500/30" />
                    <div className="flex-1">
-                      <span className="text-sm font-bold text-slate-700 block">腹泻 > 5次/天，口腔溃疡</span>
+                      <span className="text-sm font-bold text-slate-700 block">腹泻 &gt; 5次/天，口腔溃疡</span>
                       <span className="text-xs text-slate-400">影响进食时，请及时联系医生</span>
                    </div>
                 </div>
                 <div className="flex items-center gap-4 p-4 border border-rose-100 rounded-xl bg-rose-50 shadow-sm">
                    <div className="w-4 h-4 rounded-full bg-red-600 animate-pulse shadow-lg shadow-red-600/30" />
                    <div className="flex-1">
-                      <span className="text-sm font-bold text-rose-800 block">发热 > 38℃ (化疗后7-10天)</span>
+                      <span className="text-sm font-bold text-rose-800 block">发热 &gt; 38℃ (化疗后7-10天)</span>
                       <span className="text-xs text-rose-600 font-bold">可能发生粒细胞缺乏，立即急诊！</span>
                    </div>
                 </div>
@@ -517,7 +517,7 @@ export const PhaseContent: React.FC<PhaseContentProps> = ({ phase, onLearnMore }
          <SectionTitle icon={<AlertTriangle size={18} />} title="并发症警示" />
          <div className="grid grid-cols-1 gap-4">
            <Card title="倾倒综合征">
-             <div className="text-xs text-slate-500 mb-3 leading-relaxed">进食甜食或流质过快 -> 血糖急剧波动 -> 出现头晕、心慌、冷汗、无力。</div>
+             <div className="text-xs text-slate-500 mb-3 leading-relaxed">进食甜食或流质过快 -&gt; 血糖急剧波动 -&gt; 出现头晕、心慌、冷汗、无力。</div>
              <div className="text-xs bg-slate-50 p-3 rounded-lg border border-slate-100 flex gap-2">
                <span className="font-bold text-green-600 shrink-0">✅ 对策：</span>
                <span className="text-slate-600">进食后平卧 20 分钟；少吃甜食；如发作可进食少量饼干缓解。</span>
